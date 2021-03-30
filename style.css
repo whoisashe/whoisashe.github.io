@@ -1,2 +1,3 @@
-h1{color:blue;
-}
+nav {float:left;
+  position:fixed;
+  background-color: lightgray;}
