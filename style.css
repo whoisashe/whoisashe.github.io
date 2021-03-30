@@ -1,15 +1,15 @@
 nav {
-  float:left;
   position:fixed;
   background-color: lightgray;
   width: 100%;
-  list-style: none;
   margin: 0;
   padding: 0;
 
 }
 
 nav.li {
-  display: inline-block;
+  float:left;
+  list-style: none;
+  display: inline;
 
 }
