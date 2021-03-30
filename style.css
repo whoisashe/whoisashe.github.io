@@ -2,4 +2,5 @@ nav {
   float:left;
   position:fixed;
   background-color: lightgray;
+  display: inline-block;
 }
