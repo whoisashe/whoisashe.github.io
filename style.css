@@ -1,3 +1,5 @@
-nav {float:left;
+nav {
+  float:left;
   position:fixed;
-  background-color: lightgray;}
+  background-color: lightgray;
+}
