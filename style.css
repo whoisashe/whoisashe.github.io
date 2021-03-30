@@ -28,7 +28,7 @@ li a{
 
 
 li a:hover {
-  background-color:red;
+  color:lightblue;
   height:100%;
   display:inline-block;
 }
