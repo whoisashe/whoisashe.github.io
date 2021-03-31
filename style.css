@@ -1,24 +1,49 @@
-nav {
-  position:fixed;
-  background-color: #181818;
-  width: 100%;
-  padding:0;
+@media screen and (max-width: 700px) {
+  .flexbox{
+    flex-direction: column;
+  }
+}
+
+
+
+header{
+  background-color: lightgray;
+  padding: 50px;
+  text-align: center;
+  font-family: helvetica;
+
+}
+ .titolo {
+   margin: 5pt;
+
+ }
+
+ .sottotilo {
+   margin:0;
+ }
+body{width:100%;
   margin:0;
+}
+
+.nav {
+  padding: 10px;
+  margin:0;
+  background-color: #181818;
+  width: auto;
   font-family:helvetica;
 
-
-
 }
 
-nav li {
-  float:left;
+
+.nav li {
+
   list-style-type: none;
-  display: inline-block;
+  display: inline;
   padding:0px 10px 10px 10px;
-  margin:0;
 
 
 }
+
 
 li a{
   text-decoration:none;
@@ -29,31 +54,22 @@ li a{
 
 li a:hover {
   color:lightblue;
-  height:100%;
-  display:inline-block;
-}
-
-.contenuto {
-  display:none;
-  position:absolute;
-  background-color:white;
-  width:auto;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-
-
 
 }
-
-.contenuto a {
-  text-align:left;
-  display:block;
-  padding:10px;
-  color:black;
-
+.flexbox{
+  display: flex;
+  display-direction:row;
+  font-family: helvetica;
 }
-.tendina:hover .contenuto{
-  display:block;
 
+.left {
+  flex: 25%;
+  padding:20px;
+  background-color: lightgray;
+}
+
+.right{
+  flex: 75%;
+  padding: 20px;
 
 }
