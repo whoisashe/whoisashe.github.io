@@ -1,0 +1,72 @@
+::-webkit-scrollbar {
+    display: none;
+  }
+  
+      *{
+        font-family: roc-grotesk, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #333333;
+          
+      }
+  
+      body{
+          margin: 0;
+          background-color: #F3F3F3;
+      }
+      .olivetti{
+          margin-top: 25%;
+      }
+  
+      main{
+          margin-left: 10%;
+          width: 90%;
+          height: 100%;
+          
+          
+          text-align: center;
+      }
+      .olivetti-bg{
+        position: fixed;
+        margin: 2% 12%;
+        z-index: -1;
+    }
+    @media(max-width: 871px){
+        .olivetti-bg{
+            margin: 0;
+            bottom: -2%;
+            right: -50px;
+            width: 200px;
+        }
+    }
+    .black{
+        color: #333333;
+        text-decoration: none;
+    }
+    .black:hover{
+        color: #333333;
+        text-decoration: none;
+    }
+    .il-progetto{
+        position: fixed;
+        top:4%;
+        right: 7%;
+        font-weight: 600;
+        display: none;
+    }
+    .il-progetto, .il-progetto-mobile{
+        font-weight: 600;
+        border-bottom-style:solid;
+        border-bottom-color: #F3F3F3;
+        border-bottom-width: 2px;
+        padding-bottom: 5px;
+        display: none;
+    }
+    .il-progetto:hover, .il-progetto-mobile:hover{
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-bottom-color: #D61A0C;
+        border-width: 100%;
+        padding-bottom: 5px;
+    
+    }
