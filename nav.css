@@ -13,7 +13,7 @@
     background: #F3F3F3;
 }
 .left-sidebar .nav{
-    color: #B4B4B4;
+    color: #E5E5E5;
     display: flex;
     flex-direction:column;
     flex-wrap: nowrap;
@@ -34,7 +34,7 @@
 }
 a.selezione{
     text-decoration: none;
-    color: #E5E5E5;
+    color: #B4B4B4;
     margin: 16px 0;
     padding: 20px 15px;
     border-radius: 18px;
